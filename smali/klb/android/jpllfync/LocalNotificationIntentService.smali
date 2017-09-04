@@ -1,4 +1,4 @@
-.class public Lklb/android/lovelive/LocalNotificationIntentService;
+.class public Lklb/android/jpllfync/LocalNotificationIntentService;
 .super Landroid/app/IntentService;
 .source "LocalNotificationIntentService.java"
 
@@ -42,7 +42,7 @@
 
     .line 45
     :cond_0
-    invoke-virtual/range {p0 .. p0}, Lklb/android/lovelive/LocalNotificationIntentService;->getApplicationContext()Landroid/content/Context;
+    invoke-virtual/range {p0 .. p0}, Lklb/android/jpllfync/LocalNotificationIntentService;->getApplicationContext()Landroid/content/Context;
 
     move-result-object v18
 
@@ -70,7 +70,7 @@
 
     move-object/from16 v1, v18
 
-    invoke-virtual {v0, v1}, Lklb/android/lovelive/LocalNotificationIntentService;->getSystemService(Ljava/lang/String;)Ljava/lang/Object;
+    invoke-virtual {v0, v1}, Lklb/android/jpllfync/LocalNotificationIntentService;->getSystemService(Ljava/lang/String;)Ljava/lang/Object;
 
     move-result-object v10
 
@@ -201,7 +201,7 @@
 
     invoke-direct/range {v18 .. v18}, Ljava/lang/StringBuilder;-><init>()V
 
-    invoke-virtual/range {p0 .. p0}, Lklb/android/lovelive/LocalNotificationIntentService;->getApplicationContext()Landroid/content/Context;
+    invoke-virtual/range {p0 .. p0}, Lklb/android/jpllfync/LocalNotificationIntentService;->getApplicationContext()Landroid/content/Context;
 
     move-result-object v19
 
@@ -264,7 +264,7 @@
 
     move-result-object v18
 
-    invoke-virtual/range {p0 .. p0}, Lklb/android/lovelive/LocalNotificationIntentService;->getApplicationContext()Landroid/content/Context;
+    invoke-virtual/range {p0 .. p0}, Lklb/android/jpllfync/LocalNotificationIntentService;->getApplicationContext()Landroid/content/Context;
 
     move-result-object v19
 
@@ -422,10 +422,10 @@
 
     move-result v4
 
-    invoke-direct {p0, v1, v2, v3, v4}, Lklb/android/lovelive/LocalNotificationIntentService;->showNotification(Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;I)V
+    invoke-direct {p0, v1, v2, v3, v4}, Lklb/android/jpllfync/LocalNotificationIntentService;->showNotification(Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;I)V
 
     .line 34
-    invoke-static {p1}, Lklb/android/lovelive/AlarmBroadcastReceiver;->completeWakefulIntent(Landroid/content/Intent;)Z
+    invoke-static {p1}, Lklb/android/jpllfync/AlarmBroadcastReceiver;->completeWakefulIntent(Landroid/content/Intent;)Z
 
     .line 35
     return-void

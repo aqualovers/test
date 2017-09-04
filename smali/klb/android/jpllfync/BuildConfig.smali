@@ -1,10 +1,10 @@
-.class public final Lklb/android/lovelive/BuildConfig;
+.class public final Lklb/android/jpllfync/BuildConfig;
 .super Ljava/lang/Object;
 .source "BuildConfig.java"
 
 
 # static fields
-.field public static final APPLICATION_ID:Ljava/lang/String; = "klb.android.lovelive"
+.field public static final APPLICATION_ID:Ljava/lang/String; = "klb.android.jpllfync"
 
 .field public static final BUILD_TYPE:Ljava/lang/String; = "release"
 

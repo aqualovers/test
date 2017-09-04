@@ -1,4 +1,4 @@
-.class public final Lklb/android/lovelive/Manifest;
+.class public final Lklb/android/jpllfync/Manifest;
 .super Ljava/lang/Object;
 .source "Manifest.java"
 
@@ -6,7 +6,7 @@
 # annotations
 .annotation system Ldalvik/annotation/MemberClasses;
     value = {
-        Lklb/android/lovelive/Manifest$permission;
+        Lklb/android/jpllfync/Manifest$permission;
     }
 .end annotation
 

@@ -1,11 +1,11 @@
-.class public final Lklb/android/lovelive/Manifest$permission;
+.class public final Lklb/android/jpllfync/Manifest$permission;
 .super Ljava/lang/Object;
 .source "Manifest.java"
 
 
 # annotations
 .annotation system Ldalvik/annotation/EnclosingClass;
-    value = Lklb/android/lovelive/Manifest;
+    value = Lklb/android/jpllfync/Manifest;
 .end annotation
 
 .annotation system Ldalvik/annotation/InnerClass;
@@ -15,7 +15,7 @@
 
 
 # static fields
-.field public static final C2D_MESSAGE:Ljava/lang/String; = "klb.android.lovelive.permission.C2D_MESSAGE"
+.field public static final C2D_MESSAGE:Ljava/lang/String; = "klb.android.jpllfync.permission.C2D_MESSAGE"
 
 
 # direct methods

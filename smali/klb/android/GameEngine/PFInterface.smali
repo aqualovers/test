@@ -810,7 +810,7 @@
     .local v1, "context":Lklb/android/GameEngine/GameEngineActivity;
     new-instance v2, Landroid/content/Intent;
 
-    const-class v4, Lklb/android/lovelive/AlarmBroadcastReceiver;
+    const-class v4, Lklb/android/jpllfync/AlarmBroadcastReceiver;
 
     invoke-direct {v2, v1, v4}, Landroid/content/Intent;-><init>(Landroid/content/Context;Ljava/lang/Class;)V
 
@@ -3512,7 +3512,7 @@
     .line 937
     new-instance v3, Landroid/content/Intent;
 
-    const-class v5, Lklb/android/lovelive/AlarmBroadcastReceiver;
+    const-class v5, Lklb/android/jpllfync/AlarmBroadcastReceiver;
 
     invoke-direct {v3, v2, v5}, Landroid/content/Intent;-><init>(Landroid/content/Context;Ljava/lang/Class;)V
 

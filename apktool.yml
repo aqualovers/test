@@ -1,8 +1,7 @@
 !!brut.androlib.meta.MetaInfo
-apkFileName: Original.apk
+apkFileName: Nico.apk
 compressionType: false
 doNotCompress:
-- arsc
 - zip
 - assets/version
 isFrameworkApk: false

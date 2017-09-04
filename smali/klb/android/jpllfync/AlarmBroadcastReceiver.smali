@@ -1,4 +1,4 @@
-.class public Lklb/android/lovelive/AlarmBroadcastReceiver;
+.class public Lklb/android/jpllfync/AlarmBroadcastReceiver;
 .super Landroid/support/v4/content/WakefulBroadcastReceiver;
 .source "AlarmBroadcastReceiver.java"
 
@@ -29,7 +29,7 @@
 
     move-result-object v1
 
-    const-class v2, Lklb/android/lovelive/LocalNotificationIntentService;
+    const-class v2, Lklb/android/jpllfync/LocalNotificationIntentService;
 
     invoke-virtual {v2}, Ljava/lang/Class;->getName()Ljava/lang/String;
 
@@ -43,12 +43,12 @@
 
     move-result-object v1
 
-    invoke-static {p1, v1}, Lklb/android/lovelive/AlarmBroadcastReceiver;->startWakefulService(Landroid/content/Context;Landroid/content/Intent;)Landroid/content/ComponentName;
+    invoke-static {p1, v1}, Lklb/android/jpllfync/AlarmBroadcastReceiver;->startWakefulService(Landroid/content/Context;Landroid/content/Intent;)Landroid/content/ComponentName;
 
     .line 33
     const/4 v1, -0x1
 
-    invoke-virtual {p0, v1}, Lklb/android/lovelive/AlarmBroadcastReceiver;->setResultCode(I)V
+    invoke-virtual {p0, v1}, Lklb/android/jpllfync/AlarmBroadcastReceiver;->setResultCode(I)V
 
     .line 34
     return-void

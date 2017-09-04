@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8" standalone="no"?>
-<manifest xmlns:android="http://schemas.android.com/apk/res/android" android:installLocation="auto" package="klb.android.lovelive" platformBuildVersionCode="23" platformBuildVersionName="6.0-2704002">
-    <permission android:name="klb.android.lovelive.permission.C2D_MESSAGE" android:protectionLevel="signature"/>
-    <uses-permission android:name="klb.android.lovelive.permission.C2D_MESSAGE"/>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android" android:installLocation="auto" package="klb.android.jpllfync" platformBuildVersionCode="23" platformBuildVersionName="6.0-2704002">
+    <permission android:name="klb.android.jpllfync.permission.C2D_MESSAGE" android:protectionLevel="signature"/>
+    <uses-permission android:name="klb.android.jpllfync.permission.C2D_MESSAGE"/>
     <uses-permission android:name="com.google.android.c2dm.permission.RECEIVE"/>
     <uses-permission android:name="android.permission.INTERNET"/>
     <uses-permission android:name="com.android.vending.BILLING"/>
@@ -31,8 +31,8 @@
                 <action android:name="com.android.vending.INSTALL_REFERRER"/>
             </intent-filter>
         </receiver>
-        <receiver android:name="klb.android.lovelive.AlarmBroadcastReceiver" android:process=":remote"/>
-        <service android:name="klb.android.lovelive.LocalNotificationIntentService"/>
+        <receiver android:name="klb.android.jpllfync.AlarmBroadcastReceiver" android:process=":remote"/>
+        <service android:name="klb.android.jpllfync.LocalNotificationIntentService"/>
         <meta-data android:name="com.google.android.gms.version" android:value="@integer/google_play_services_version"/>
         <meta-data android:name="APPADFORCE_APP_ID" android:value="947"/>
         <meta-data android:name="APPADFORCE_SERVER_URL" android:value="01c2039212f54cebb80526f880beaa11c1fee0f08bcb85e8cb084b8b9557754645"/>

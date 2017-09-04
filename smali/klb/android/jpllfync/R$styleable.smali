@@ -1,11 +1,11 @@
-.class public final Lklb/android/lovelive/R$styleable;
+.class public final Lklb/android/jpllfync/R$styleable;
 .super Ljava/lang/Object;
 .source "R.java"
 
 
 # annotations
 .annotation system Ldalvik/annotation/EnclosingClass;
-    value = Lklb/android/lovelive/R;
+    value = Lklb/android/jpllfync/R;
 .end annotation
 
 .annotation system Ldalvik/annotation/InnerClass;
@@ -774,7 +774,7 @@
 
     fill-array-data v0, :array_0
 
-    sput-object v0, Lklb/android/lovelive/R$styleable;->ActionBar:[I
+    sput-object v0, Lklb/android/jpllfync/R$styleable;->ActionBar:[I
 
     .line 3060
     new-array v0, v5, [I
@@ -783,7 +783,7 @@
 
     aput v1, v0, v2
 
-    sput-object v0, Lklb/android/lovelive/R$styleable;->ActionBarLayout:[I
+    sput-object v0, Lklb/android/jpllfync/R$styleable;->ActionBarLayout:[I
 
     .line 3079
     new-array v0, v5, [I
@@ -792,54 +792,54 @@
 
     aput v1, v0, v2
 
-    sput-object v0, Lklb/android/lovelive/R$styleable;->ActionMenuItemView:[I
+    sput-object v0, Lklb/android/jpllfync/R$styleable;->ActionMenuItemView:[I
 
     .line 3090
     new-array v0, v2, [I
 
-    sput-object v0, Lklb/android/lovelive/R$styleable;->ActionMenuView:[I
+    sput-object v0, Lklb/android/jpllfync/R$styleable;->ActionMenuView:[I
 
     .line 3113
     new-array v0, v6, [I
 
     fill-array-data v0, :array_1
 
-    sput-object v0, Lklb/android/lovelive/R$styleable;->ActionMode:[I
+    sput-object v0, Lklb/android/jpllfync/R$styleable;->ActionMode:[I
 
     .line 3197
     new-array v0, v3, [I
 
     fill-array-data v0, :array_2
 
-    sput-object v0, Lklb/android/lovelive/R$styleable;->ActivityChooserView:[I
+    sput-object v0, Lklb/android/jpllfync/R$styleable;->ActivityChooserView:[I
 
     .line 3238
     new-array v0, v4, [I
 
     fill-array-data v0, :array_3
 
-    sput-object v0, Lklb/android/lovelive/R$styleable;->AdsAttrs:[I
+    sput-object v0, Lklb/android/jpllfync/R$styleable;->AdsAttrs:[I
 
     .line 3303
     new-array v0, v6, [I
 
     fill-array-data v0, :array_4
 
-    sput-object v0, Lklb/android/lovelive/R$styleable;->AlertDialog:[I
+    sput-object v0, Lklb/android/jpllfync/R$styleable;->AlertDialog:[I
 
     .line 3375
     new-array v0, v3, [I
 
     fill-array-data v0, :array_5
 
-    sput-object v0, Lklb/android/lovelive/R$styleable;->AppCompatImageView:[I
+    sput-object v0, Lklb/android/jpllfync/R$styleable;->AppCompatImageView:[I
 
     .line 3406
     new-array v0, v3, [I
 
     fill-array-data v0, :array_6
 
-    sput-object v0, Lklb/android/lovelive/R$styleable;->AppCompatTextView:[I
+    sput-object v0, Lklb/android/jpllfync/R$styleable;->AppCompatTextView:[I
 
     .line 3658
     const/16 v0, 0x70
@@ -848,7 +848,7 @@
 
     fill-array-data v0, :array_7
 
-    sput-object v0, Lklb/android/lovelive/R$styleable;->AppCompatTheme:[I
+    sput-object v0, Lklb/android/jpllfync/R$styleable;->AppCompatTheme:[I
 
     .line 4994
     new-array v0, v5, [I
@@ -857,14 +857,14 @@
 
     aput v1, v0, v2
 
-    sput-object v0, Lklb/android/lovelive/R$styleable;->ButtonBarLayout:[I
+    sput-object v0, Lklb/android/jpllfync/R$styleable;->ButtonBarLayout:[I
 
     .line 5025
     new-array v0, v4, [I
 
     fill-array-data v0, :array_8
 
-    sput-object v0, Lklb/android/lovelive/R$styleable;->CompoundButton:[I
+    sput-object v0, Lklb/android/jpllfync/R$styleable;->CompoundButton:[I
 
     .line 5093
     const/16 v0, 0x8
@@ -873,7 +873,7 @@
 
     fill-array-data v0, :array_9
 
-    sput-object v0, Lklb/android/lovelive/R$styleable;->DrawerArrowToggle:[I
+    sput-object v0, Lklb/android/jpllfync/R$styleable;->DrawerArrowToggle:[I
 
     .line 5248
     const/16 v0, 0x9
@@ -882,7 +882,7 @@
 
     fill-array-data v0, :array_a
 
-    sput-object v0, Lklb/android/lovelive/R$styleable;->LinearLayoutCompat:[I
+    sput-object v0, Lklb/android/jpllfync/R$styleable;->LinearLayoutCompat:[I
 
     .line 5358
     const/4 v0, 0x4
@@ -891,21 +891,21 @@
 
     fill-array-data v0, :array_b
 
-    sput-object v0, Lklb/android/lovelive/R$styleable;->LinearLayoutCompat_Layout:[I
+    sput-object v0, Lklb/android/jpllfync/R$styleable;->LinearLayoutCompat_Layout:[I
 
     .line 5397
     new-array v0, v3, [I
 
     fill-array-data v0, :array_c
 
-    sput-object v0, Lklb/android/lovelive/R$styleable;->ListPopupWindow:[I
+    sput-object v0, Lklb/android/jpllfync/R$styleable;->ListPopupWindow:[I
 
     .line 5426
     new-array v0, v4, [I
 
     fill-array-data v0, :array_d
 
-    sput-object v0, Lklb/android/lovelive/R$styleable;->LoadingImageView:[I
+    sput-object v0, Lklb/android/jpllfync/R$styleable;->LoadingImageView:[I
 
     .line 5515
     const/16 v0, 0x10
@@ -914,14 +914,14 @@
 
     fill-array-data v0, :array_e
 
-    sput-object v0, Lklb/android/lovelive/R$styleable;->MapAttrs:[I
+    sput-object v0, Lklb/android/jpllfync/R$styleable;->MapAttrs:[I
 
     .line 5771
     new-array v0, v6, [I
 
     fill-array-data v0, :array_f
 
-    sput-object v0, Lklb/android/lovelive/R$styleable;->MenuGroup:[I
+    sput-object v0, Lklb/android/jpllfync/R$styleable;->MenuGroup:[I
 
     .line 5853
     const/16 v0, 0x11
@@ -930,7 +930,7 @@
 
     fill-array-data v0, :array_10
 
-    sput-object v0, Lklb/android/lovelive/R$styleable;->MenuItem:[I
+    sput-object v0, Lklb/android/jpllfync/R$styleable;->MenuItem:[I
 
     .line 6020
     const/16 v0, 0x8
@@ -939,14 +939,14 @@
 
     fill-array-data v0, :array_11
 
-    sput-object v0, Lklb/android/lovelive/R$styleable;->MenuView:[I
+    sput-object v0, Lklb/android/jpllfync/R$styleable;->MenuView:[I
 
     .line 6092
     new-array v0, v3, [I
 
     fill-array-data v0, :array_12
 
-    sput-object v0, Lklb/android/lovelive/R$styleable;->PopupWindow:[I
+    sput-object v0, Lklb/android/jpllfync/R$styleable;->PopupWindow:[I
 
     .line 6125
     new-array v0, v5, [I
@@ -955,7 +955,7 @@
 
     aput v1, v0, v2
 
-    sput-object v0, Lklb/android/lovelive/R$styleable;->PopupWindowBackgroundState:[I
+    sput-object v0, Lklb/android/jpllfync/R$styleable;->PopupWindowBackgroundState:[I
 
     .line 6184
     const/16 v0, 0x11
@@ -964,7 +964,7 @@
 
     fill-array-data v0, :array_13
 
-    sput-object v0, Lklb/android/lovelive/R$styleable;->SearchView:[I
+    sput-object v0, Lklb/android/jpllfync/R$styleable;->SearchView:[I
 
     .line 6375
     const/4 v0, 0x5
@@ -973,7 +973,7 @@
 
     fill-array-data v0, :array_14
 
-    sput-object v0, Lklb/android/lovelive/R$styleable;->Spinner:[I
+    sput-object v0, Lklb/android/jpllfync/R$styleable;->Spinner:[I
 
     .line 6441
     const/16 v0, 0xa
@@ -982,7 +982,7 @@
 
     fill-array-data v0, :array_15
 
-    sput-object v0, Lklb/android/lovelive/R$styleable;->SwitchCompat:[I
+    sput-object v0, Lklb/android/jpllfync/R$styleable;->SwitchCompat:[I
 
     .line 6586
     const/16 v0, 0x9
@@ -991,7 +991,7 @@
 
     fill-array-data v0, :array_16
 
-    sput-object v0, Lklb/android/lovelive/R$styleable;->TextAppearance:[I
+    sput-object v0, Lklb/android/jpllfync/R$styleable;->TextAppearance:[I
 
     .line 6708
     const/16 v0, 0x19
@@ -1000,7 +1000,7 @@
 
     fill-array-data v0, :array_17
 
-    sput-object v0, Lklb/android/lovelive/R$styleable;->Toolbar:[I
+    sput-object v0, Lklb/android/jpllfync/R$styleable;->Toolbar:[I
 
     .line 7067
     const/4 v0, 0x5
@@ -1009,21 +1009,21 @@
 
     fill-array-data v0, :array_18
 
-    sput-object v0, Lklb/android/lovelive/R$styleable;->View:[I
+    sput-object v0, Lklb/android/jpllfync/R$styleable;->View:[I
 
     .line 7139
     new-array v0, v4, [I
 
     fill-array-data v0, :array_19
 
-    sput-object v0, Lklb/android/lovelive/R$styleable;->ViewBackgroundHelper:[I
+    sput-object v0, Lklb/android/jpllfync/R$styleable;->ViewBackgroundHelper:[I
 
     .line 7197
     new-array v0, v4, [I
 
     fill-array-data v0, :array_1a
 
-    sput-object v0, Lklb/android/lovelive/R$styleable;->ViewStubCompat:[I
+    sput-object v0, Lklb/android/jpllfync/R$styleable;->ViewStubCompat:[I
 
     .line 7234
     const/4 v0, 0x4
@@ -1032,7 +1032,7 @@
 
     fill-array-data v0, :array_1b
 
-    sput-object v0, Lklb/android/lovelive/R$styleable;->WalletFragmentOptions:[I
+    sput-object v0, Lklb/android/jpllfync/R$styleable;->WalletFragmentOptions:[I
 
     .line 7329
     const/16 v0, 0xb
@@ -1041,7 +1041,7 @@
 
     fill-array-data v0, :array_1c
 
-    sput-object v0, Lklb/android/lovelive/R$styleable;->WalletFragmentStyle:[I
+    sput-object v0, Lklb/android/jpllfync/R$styleable;->WalletFragmentStyle:[I
 
     return-void
 

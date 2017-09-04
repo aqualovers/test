@@ -1,11 +1,11 @@
-.class public final Lklb/android/lovelive/R$color;
+.class public final Lklb/android/jpllfync/R$color;
 .super Ljava/lang/Object;
 .source "R.java"
 
 
 # annotations
 .annotation system Ldalvik/annotation/EnclosingClass;
-    value = Lklb/android/lovelive/R;
+    value = Lklb/android/jpllfync/R;
 .end annotation
 
 .annotation system Ldalvik/annotation/InnerClass;

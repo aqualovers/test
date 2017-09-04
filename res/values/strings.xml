@@ -51,9 +51,9 @@
     <string name="bootup_stopped">不正なアクセスを検出しました。アプリを起動出来ません。</string>
     <string name="wallet_buy_button_place_holder">Buy with Google</string>
     <string name="accept">Accept</string>
-    <string name="app_name">ラブライブ！</string>
+    <string name="app_name">ラブライブ！ Nico</string>
     <string name="bsmo_app_id">3</string>
-    <string name="bsmo_callback_activity">klb.android.lovelive.GameEngineActivity</string>
+    <string name="bsmo_callback_activity">klb.android.jpllfync.GameEngineActivity</string>
     <string name="bsmo_callback_scheme">jp.co.bushimo.3</string>
     <string name="bsmo_confirm_btn_cancel">キャンセル</string>
     <string name="bsmo_confirm_btn_deselect">選択を解除</string>
