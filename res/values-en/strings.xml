@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="bootup_stopped">Inappropriate environment detected. Cannot proceed launching this app.</string>
+</resources>

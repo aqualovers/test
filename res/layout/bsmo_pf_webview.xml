@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:orientation="vertical" android:id="@id/helpLayout" android:background="#ffffffff" android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <RelativeLayout android:id="@id/bsmoBtnClose" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="44.0dip">
+            <ImageView android:id="@id/bsmo_navigation_bar" android:layout_width="fill_parent" android:layout_height="fill_parent" android:src="@drawable/bsmo_navigation_bar" android:scaleType="fitXY" />
+            <ImageButton android:id="@id/bsmo_btn_close" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_margin="5.0dip" android:src="@drawable/bsmo_btn_close" android:scaleType="fitEnd" android:layout_alignParentRight="true" android:layout_centerInParent="true" android:layout_centerVertical="true" android:onClick="onClickResume" style="@style/bsmo_image_button_style" />
+        </RelativeLayout>
+        <FrameLayout android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_weight="1.0">
+            <WebView android:id="@id/webview" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+            <View android:id="@id/maskForWebview" android:background="#50000000" android:visibility="invisible" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+        </FrameLayout>
+        <TableLayout android:id="@id/toolBar" android:background="#ff000000" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_alignParentBottom="true">
+            <TableRow>
+                <ImageButton android:id="@id/btnTbBack" android:background="@null" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/bsmo_tb_btn_back" android:scaleType="fitXY" android:adjustViewBounds="true" android:layout_weight="1.0" android:onClick="onClickBack" />
+                <ImageButton android:id="@id/btnTbReload" android:background="@null" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/bsmo_tb_btn_reload" android:scaleType="fitXY" android:adjustViewBounds="true" android:layout_weight="1.0" android:onClick="onClickReload" />
+                <ImageButton android:id="@id/btnTbMypage" android:background="@null" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/bsmo_tb_btn_mypage" android:scaleType="fitXY" android:adjustViewBounds="true" android:layout_weight="1.0" android:onClick="onClickMyPage" />
+                <ImageButton android:id="@id/btnTbGame" android:background="@null" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/bsmo_tb_btn_game" android:scaleType="fitXY" android:adjustViewBounds="true" android:layout_weight="1.0" android:onClick="onClickGame" />
+                <ImageButton android:id="@id/btnTbContact" android:background="@null" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/bsmo_tb_btn_contact" android:scaleType="fitXY" android:adjustViewBounds="true" android:layout_weight="1.0" android:onClick="onClickContactApp" />
+            </TableRow>
+        </TableLayout>
+    </LinearLayout>
+    <ProgressBar android:layout_gravity="center" android:id="@id/progressbar" android:background="@drawable/bsmo_radius_shape" android:visibility="visible" android:layout_width="wrap_content" android:layout_height="wrap_content" android:indeterminate="true" style="?android:attr/progressBarStyle" />
+</FrameLayout>

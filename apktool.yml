@@ -1,0 +1,25 @@
+!!brut.androlib.meta.MetaInfo
+apkFileName: Original.apk
+compressionType: false
+doNotCompress:
+- arsc
+- zip
+- assets/version
+isFrameworkApk: false
+packageInfo:
+  forcedPackageId: '127'
+  renameManifestPackage: null
+sdkInfo:
+  minSdkVersion: '14'
+  targetSdkVersion: '23'
+sharedLibrary: false
+unknownFiles:
+  org/apache/http/entity/mime/version.properties: '8'
+usesFramework:
+  ids:
+  - 1
+  tag: null
+version: 2.2.2-SNAPSHOT
+versionInfo:
+  versionCode: '200205100'
+  versionName: '5.1'

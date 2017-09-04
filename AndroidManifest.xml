@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android" android:installLocation="auto" package="klb.android.lovelive" platformBuildVersionCode="23" platformBuildVersionName="6.0-2704002">
+    <permission android:name="klb.android.lovelive.permission.C2D_MESSAGE" android:protectionLevel="signature"/>
+    <uses-permission android:name="klb.android.lovelive.permission.C2D_MESSAGE"/>
+    <uses-permission android:name="com.google.android.c2dm.permission.RECEIVE"/>
+    <uses-permission android:name="android.permission.INTERNET"/>
+    <uses-permission android:name="com.android.vending.BILLING"/>
+    <uses-permission android:name="android.permission.WAKE_LOCK"/>
+    <uses-permission android:name="android.permission.INTERNET"/>
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE"/>
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION"/>
+    <uses-feature android:name="android.hardware.location" android:required="false"/>
+    <uses-feature android:name="android.hardware.location.gps" android:required="false"/>
+    <application android:allowBackup="false" android:icon="@drawable/ic_launcher" android:label="@string/app_name" android:name="klb.android.GameEngine.GameEngineApplication">
+        <activity android:configChanges="locale|keyboardHidden|layoutDirection|orientation|screenSize" android:label="@string/app_name" android:launchMode="singleTask" android:name="klb.android.GameEngine.GameEngineActivity" android:screenOrientation="landscape" android:theme="@style/AppTheme">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN"/>
+                <category android:name="android.intent.category.LAUNCHER"/>
+            </intent-filter>
+            <intent-filter>
+                <action android:name="android.intent.action.VIEW"/>
+                <category android:name="android.intent.category.BROWSABLE"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+                <data android:host="auth" android:scheme="lovelive-jp-klabid"/>
+                <data android:host="link" android:scheme="lovelive-jp-klab"/>
+                <data android:host="" android:scheme="klab-lovelive-jp"/>
+            </intent-filter>
+        </activity>
+        <receiver android:exported="true" android:name="klb.android.GameEngine.sdkwrapper.SDKInstallReceiver">
+            <intent-filter>
+                <action android:name="com.android.vending.INSTALL_REFERRER"/>
+            </intent-filter>
+        </receiver>
+        <receiver android:name="klb.android.lovelive.AlarmBroadcastReceiver" android:process=":remote"/>
+        <service android:name="klb.android.lovelive.LocalNotificationIntentService"/>
+        <meta-data android:name="com.google.android.gms.version" android:value="@integer/google_play_services_version"/>
+        <meta-data android:name="APPADFORCE_APP_ID" android:value="947"/>
+        <meta-data android:name="APPADFORCE_SERVER_URL" android:value="01c2039212f54cebb80526f880beaa11c1fee0f08bcb85e8cb084b8b9557754645"/>
+        <meta-data android:name="APPADFORCE_CRYPTO_SALT" android:value="3ff23ceee717dd67b73ebbc1d41ce84a24374dd8"/>
+        <meta-data android:name="ANALYTICS_APP_KEY" android:value="e442f5d42ee2f4f1ab1552aa62ddafff4bf5b215"/>
+        <activity android:configChanges="keyboardHidden|orientation" android:name="com.bushiroad.bushimo.sdk.android.ui.BsmoWebActivity" android:screenOrientation="portrait"/>
+        <activity android:configChanges="keyboardHidden|orientation" android:name="com.bushiroad.bushimo.sdk.android.ui.BsmoLoginActivity" android:screenOrientation="portrait"/>
+        <activity android:launchMode="singleTask" android:name="com.bushiroad.bushimo.sdk.android.ui.BsmoOAuthCallbackActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.VIEW"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+                <category android:name="android.intent.category.BROWSABLE"/>
+                <data android:scheme="@string/bsmo_callback_scheme"/>
+            </intent-filter>
+        </activity>
+        <meta-data android:name="appsFlyer_dev_key" android:value="Z8X73UaN5jntwk2U7oua3L"/>
+    </application>
+</manifest>
